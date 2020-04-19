@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php
+        session_start();
+
+        if (!isset($_SESSION['crystal-user-login']) ||(trim($_SESSION['crystal-user-login']) == '')){
+            header('location:signin');
+        }
+    ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -70,7 +77,7 @@
                         Inbox
                     </a>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">
                         <i class="batch-icon batch-icon-paragraph-alt-justify"></i>
