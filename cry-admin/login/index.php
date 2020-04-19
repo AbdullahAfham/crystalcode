@@ -40,7 +40,7 @@
 <body>
 
     <div class="main-wrapper">
-
+    <?php $title = 'Please Sign in to continue the admin dashboard..'; ?>
         <!-- Content Body Start -->
         <div class="content-body m-0 p-0">
 
@@ -52,7 +52,7 @@
 
                             <div class="content">
                                 <h1>Sign in</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <p><?php echo $title ?></p>
                             </div>
 
                             <div class="login-register-form">
@@ -77,7 +77,7 @@
                     <div class="login-register-bg order-1 order-lg-2 col-lg-7 col-12">
                         <div class="content">
                             <h1>Sign in</h1>
-                            <p>Please Login to continue.</p>
+                            <p><?php echo $title ?></p>
                         </div>
                     </div>
 
