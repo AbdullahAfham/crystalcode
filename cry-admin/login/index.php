@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Adomx - Responsive Bootstrap 4 Admin Template</title>
+    <title>Crystal-Login</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
     <!-- CSS
 	============================================ -->
@@ -64,7 +64,7 @@
                                         <div class="col-12">
                                             <div class="row justify-content-between">
                                                 <div class="col-auto mb-15"><a href="#">Forgot Password?</a></div>
-                                                <div class="col-auto mb-15">Dont have account? <a href="register.html">Create Now.</a></div>
+                                                <!-- <div class="col-auto mb-15">Dont have account? <a href="register.html">Create Now.</a></div> -->
                                             </div>
                                         </div>
                                         <div class="col-12 mt-10"><button class="button button-primary button-outline">sign in</button></div>
@@ -77,7 +77,7 @@
                     <div class="login-register-bg order-1 order-lg-2 col-lg-7 col-12">
                         <div class="content">
                             <h1>Sign in</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p>Please Login to continue.</p>
                         </div>
                     </div>
 
