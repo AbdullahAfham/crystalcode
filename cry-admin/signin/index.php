@@ -2,6 +2,7 @@
 <html class="no-js" lang="en">
 
 <head>
+   
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Crystal-Login</title>
@@ -56,7 +57,7 @@
                             </div>
 
                             <div class="login-register-form">
-                                <form action="#">
+                                <form method="post">
                                     <div class="row">
                                         <div class="col-12 mb-20"><input class="form-control" type="text" placeholder="User ID / Email"></div>
                                         <div class="col-12 mb-20"><input class="form-control" type="password" placeholder="Password"></div>
@@ -67,7 +68,7 @@
                                                 <!-- <div class="col-auto mb-15">Dont have account? <a href="register.html">Create Now.</a></div> -->
                                             </div>
                                         </div>
-                                        <div class="col-12 mt-10"><button class="button button-primary button-outline">sign in</button></div>
+                                        <div class="col-12 mt-10"><button class="button button-primary button-outline" name="signin">sign in</button></div>
                                     </div>
                                 </form>
                             </div>
@@ -87,7 +88,7 @@
         </div><!-- Content Body End -->
 
     </div>
-
+    
     <!-- JS
 ============================================ -->
 

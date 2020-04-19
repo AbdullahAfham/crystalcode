@@ -1,13 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php
-        session_start();
 
-        if (!isset($_SESSION['crystal-user-login']) ||(trim($_SESSION['crystal-user-login']) == '')){
-            header('location:signin');
-        }
-    ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -310,7 +305,7 @@
                                     </a>
                                 </li>
                                 <li><a class="dropdown-item" href="profiles-member-profile.html">Settings</a></li>
-                                <li><a class="dropdown-item" href="sisu-lock-screen.html">Logout</a></li>
+                                <li><a class="dropdown-item" href="index.php?logout=true" name="logout">Logout</a></li>
                             </ul>
                         </li>
                     </ul>
