@@ -4,6 +4,7 @@ $active2 = "";
 $active3 = "";
 $active4 = "";
 $active5 = "nav-item active";
+$active6 = "";
 
 include('header.php');?>
 

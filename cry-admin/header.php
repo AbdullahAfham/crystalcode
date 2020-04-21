@@ -1,4 +1,9 @@
-
+<?php
+    session_start();
+    if(!isset($_SESSION['crystal-admin-login'])){
+        header('location:signin.php');
+      }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -295,6 +300,7 @@
                                     <img src="assets/img/profile-pic.jpg" width="44" height="44">
                                 </div>
                             </a>
+                            
                             <ul class="dropdown-menu dropdown-menu-right"
                                 aria-labelledby="navbar-dropdown-navbar-profile">
                                 <li><a class="dropdown-item" href="profiles-member-profile.html">Profile</a></li>
@@ -305,9 +311,20 @@
                                     </a>
                                 </li>
                                 <li><a class="dropdown-item" href="profiles-member-profile.html">Settings</a></li>
-                                <li><a class="dropdown-item" href="index.php?logout=true" name="logout">Logout</a></li>
+                                <li><a class="dropdown-item" id="logout" >Logout</a></li>
                             </ul>
+                         
                         </li>
                     </ul>
                 </div>
             </nav><br><br><br><br>
+
+            <script>
+                document.getElementById("logout").addEventListener("click", myFunction);
+
+                function myFunction() {
+                    document.write('<?php  unset($_SESSION["crystal-admin-login"]); ?>');
+                    window.location = 'signin.php';
+                }
+            
+            </script>

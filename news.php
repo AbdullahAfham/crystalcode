@@ -4,6 +4,7 @@ $active2 = "nav-item active";
 $active3 = "";
 $active4 = "";
 $active5 = "";
+$active6 = "";
 
 include('header.php');?>
 <!-- Home Page Banner Area Start -->

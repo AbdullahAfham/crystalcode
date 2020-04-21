@@ -152,7 +152,11 @@
 									</li>
 
                                     <li class="<?php echo $active5; ?>">
-										<a class="nav-link" href="ongoing.php">Ongoing Projects</a>
+										<a class="nav-link" href="ongoing.php">Projects</a>
+									</li>
+
+									<li class="<?php echo $active6; ?>">
+										<a class="nav-link" href="#">Gallery</a>
 									</li>
 
                                     <li class="<?php echo $active4; ?>">

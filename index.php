@@ -4,6 +4,7 @@ $active2 = "";
 $active3 = "";
 $active4 = "";
 $active5 = "";
+$active6 = "";
 
 include('header.php');?>
 
